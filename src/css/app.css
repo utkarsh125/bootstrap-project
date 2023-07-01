@@ -45,23 +45,44 @@ p{
     line-height: 1.55rem;
     font-synthesis: none;
     text-rendering: optimizeLegibility;
+}
+li{
+    list-style: none;
+}
+
+/* NAVBAR SECTION */
+
+.nav-link{
+    color: var(--bs-primary-color)!important;
+}
+.nav-link:hover{
+    color: var(--secondary-color)!important;
+}
 
 /* HERO SECTION HERE */
 .hero-section .container{
     display: grid;
     place-content: center;
     height: inherit;
-    padding-top: 15%;
 }
 
 .bg-main{
-    height: 60vh;
+    height: 80vh;
     position: relative;
 }
-}.hero-picture--section{
+
+.hero-picture--section{
     max-width: 100%;
     height: auto;
     width: 20rem;
     border-radius: 2rem;
+}
+
+.bg-color{
+    background-color: var(--bs-dark-color);
+}
+
+.text-light-grey{
+    color: var(--bs-primary-color);
 }
 
