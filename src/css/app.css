@@ -220,5 +220,40 @@ button, a{
 .contact-section .form-section{
     width: 50%;
 }
-
-
+.main-footer-section{
+    padding: 0 0 4rem 0;
+       background-color: #222;
+       color: var( --bs-main-color);
+   }
+   
+   .contact-div{
+       background-color:  var(--bs-dark-primary);
+   }
+   
+   .icon-div{
+       width: 5rem;
+       height: 5rem;
+       /*background: #1089ff;*/
+   }
+   
+   .icon-span{
+       width: 2.5rem;
+       height: 2.5rem;
+       background-color: #1089ff;
+       color: var( --bs-main-color);
+   }
+   
+   .icon-span .fa-brands, .fab{
+       color:white;
+   }
+   
+   .carousel-indicators{
+       bottom: -20%;
+   }
+   
+   .carousel-indicators [data-bs-target]{
+       margin-top: 2rem;
+       width: .7rem;
+       height: .7rem;
+       background-color: #1089ff;
+   }
