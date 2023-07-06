@@ -257,3 +257,53 @@ button, a{
        height: .7rem;
        background-color: #1089ff;
    }
+
+
+/* MEDIA QUERIES FOR RESPONSIVENESS */
+
+@media screen and (max-width: 1200px){
+    .hero-picture--section{
+        width: 20rem;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (max-width: 998px){
+    .navbar-toggler{
+        color: var(--bs-main-color);
+    }
+
+    .navbar-toggler-icon{
+        border-color: var(--bs-main-color);
+        background: var(--bs-main-color);
+    }
+
+    h1{
+        font-size: 2.4rem;
+    }
+
+    section .common-heading{
+        font-size: 2.4rem;
+    }
+
+    section .para-width{
+        width: auto;
+    }
+
+    .hero-section{
+        height: 100vh;
+    }
+
+    h2{
+        font-size: 1.8rem;
+        line-height: 1.7rem;
+    }
+    .vid-section{
+        text-align: center;
+    }
+
+    .more-info-section{
+        padding: 3%;
+        text-align: center;
+    }
+}
