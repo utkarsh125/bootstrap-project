@@ -202,3 +202,46 @@ button, a{
 .carousel-inner .card:hover p{
     color: var(--bs-dark-primary);
 }
+.expert-section{
+    background-color: var(--bs-main-color);
+}
+.card-img-top{
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+/* CONTACT STYLES */
+
+.contact-section{
+    position: relative;
+}
+
+/* .contact-section .common-title{
+    padding-top: 10rem;
+}
+
+.contact-section .form-section{
+    width: 50%;
+}
+
+.custom-shape-divider-top-1684211116 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1684211116 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1684211116 .shape-fill {
+    fill: var( --bs-main-color);
+} */
+
