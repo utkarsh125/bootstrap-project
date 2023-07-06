@@ -7,3 +7,7 @@ A simple practice website created to understand the concepts of CSS and Bootstra
 ### HOW TO CLONE?
 ```git clone https://github.com/utkarsh125/bootstrap-project ```
 
+### View Deployment at
+![image](https://github.com/utkarsh125/bootstrap-project/assets/63429238/cc43addd-3362-4c7e-90f0-b7356157ab23)
+
+https://furnitio.netlify.app
