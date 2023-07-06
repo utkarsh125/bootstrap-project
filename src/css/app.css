@@ -59,6 +59,10 @@ li{
 .common-title{
     margin-bottom: 4.2rem;
 }
+
+.common-section{
+    padding: 0 0 9rem 0;
+}
 /* NAVBAR SECTION */
 
 .nav-link{
@@ -172,4 +176,29 @@ button, a{
 }
 .more-info-section .vid-section video{
     width: 70%;
+}
+
+/* FEATURE PAGE */
+.business-section{
+    padding-top: 3rem;
+}
+/* CAROUSEL and CARD */
+
+.carousel .card{
+    background-color: #262631;
+    color: var(--bs-main-color);
+    transition: all 0.3s linear;
+}
+
+.carousel-inner .card p{
+    color: var(--bs-main-color);
+}
+
+.carousel-inner .card:hover{
+    background-color: var(--bs-main-color);
+    color: var(--bs-dark-primary);
+}
+
+.carousel-inner .card:hover p{
+    color: var(--bs-dark-primary);
 }
